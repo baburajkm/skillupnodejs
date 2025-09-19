@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git url: 'https://github.com/<your-github-username>/skillupnodejs.git', branch: 'main'
+        git url: 'https://github.com/baburaj50/skillupnodejs.git', branch: 'main'
       }
     }
     stage('Build Docker Image') {
